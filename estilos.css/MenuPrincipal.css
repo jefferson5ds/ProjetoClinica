@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+    }
+
+
+header{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+    height: 100px;
+}
+.imagem{
+    text-align: center;
+}
+nav{
+   background-color: aqua;
+   height: 100px;
+
+}
+ul{
+   padding: 20px;
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+ } 
+ li{
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+
+} 
+ footer{
+    display: flex;
+    padding: 5PX;
+    background-color: aqua;
+    text-align: center; 
+    justify-content: space-around;
+  }
+  .imagemR{
+    margin: 20px;
+    width: 130PX;
+    border-radius: 5px 5px 5px 5px;
+
+  }
+  .logo-redes{
+   display: flex;
+   width: 200px;
+   padding: 10px;
+   margin: 20px;
+   gap: 20px;
+ 
+   width: 300px;
+   justify-content: end;
+  }

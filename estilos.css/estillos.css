@@ -1,0 +1,73 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+
+header{
+   display: flex;
+   gap: 400px;
+   width: 80px;
+   height: 150px;
+
+   
+}
+.logo{
+ 
+}
+nav{
+    display: flex; 
+    background-color: aqua;
+    
+}
+ul{
+    display: flex;
+     gap: 50px;
+    list-style-type: none;
+}
+ul li {
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+.imagem-de-fundo{
+
+}
+img{
+   text-align: center;
+}
+main{
+
+    display: flex;
+    background-color: aquamarine;
+}
+footer{
+    text-align: center;
+    text-transform: lowercase;
+    background-color: aqua;
+}
+
+footer{
+    display: flex;
+    padding: 5PX;
+    background-color: aqua;
+    text-align: center; 
+    justify-content: space-around;
+  }
+  .imagemR{
+    margin: 20px;
+    width: 130PX;
+    border-radius: 5px 5px 5px 5px;
+
+  }
+  .logo-redes{
+   display: flex;
+   width: 200px;
+   padding: 10px;
+   margin: 20px;
+   gap: 20px;
+ 
+   width: 300px;
+   justify-content: end;
+  }
